@@ -44,17 +44,18 @@
 }
 .cc-wc-cart-drop-widget span.header-menu-divider {
   display: inline-block;
+  margin: 0 5px;
   font-size: 18px;
   line-height: 18px;
   font-weight: 100;
   color: #000000;
+  vertical-align: top;
 }
 .cc-wc-cart-drop-widget .my-account-button {
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
-  text-transform: uppercase;
   vertical-align: middle;
 }
 .cc-wc-cart-drop-widget .header-cart-wrap a.cart-customlocation {
