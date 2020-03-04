@@ -35,6 +35,7 @@ function spm_enqueue_custom_scripts(){
 	// CSS
 	wp_enqueue_style('wc-cart-dropdown-css', plugin_dir_url( __FILE__ ) . 'includes/css/style.css');
 	// JS
+	wp_enqueue_script('wc-cart-dropdown-fontawesome', 'https://kit.fontawesome.com/400d5ec791.js', array(), 1.0, false);
 	//wp_enqueue_script('wc-cart-dropdown-js', plugin_dir_url( __FILE__ ) . 'includes/js/script.js', array('jquery'), 1.0, true);
 }
 add_action('wp_enqueue_scripts', 'spm_enqueue_custom_scripts');

@@ -1,4 +1,10 @@
 /*--- Header Cart Details ---*/
+.cc-wc-cart-drop-widget,
+.cc-wc-cart-drop-widget * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .cc-wc-cart-drop-widget {
   display: block;
   position: relative;
@@ -189,11 +195,29 @@
   float: none;
 }
 .cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown .buttons a.button {
+  display: block;
   width: 100%;
   margin: 0;
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   background: #000000;
+  text-align: center;
+}
+/*--- Arrow Button ---*/
+.cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown .buttons a.button.wc-forward {
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+}
+.cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown .buttons a.button.wc-forward:after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  display: inline-block;
+  font-size: 55%;
+  margin: 0 0 0 10px;
+  position: relative;
+  vertical-align: middle;
+  top: -1px;
 }
 .cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown .buttons a.button:first-of-type {
   margin-bottom: 15px;
