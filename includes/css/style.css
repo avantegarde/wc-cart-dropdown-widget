@@ -150,12 +150,17 @@
   line-height: 16px;
   letter-spacing: 1px;
   text-align: center;
+  text-decoration: none;
   margin: 0 15px 15px 0;
   padding: 0;
   float: left;
   color: #ffffff;
   background: #cccccc;
   border-radius: 50%;
+}
+.cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown ul.cart_list li a.remove:hover {
+  text-decoration: none;
+  background: #810707;
 }
 .cc-wc-cart-drop-widget .header-cart-wrap .cart-dropdown ul.cart_list li img {
   display: block;
